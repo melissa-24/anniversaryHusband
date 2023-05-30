@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/craftsnh/public_html/husbandAnn
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
